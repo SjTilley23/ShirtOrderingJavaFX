@@ -1,0 +1,56 @@
+.button {
+    -fx-font: 15px "Arial";
+    -fx-padding: 5;
+    -fx-min-width: 110px;
+    -fx-background-color: #BFBFBF;
+    -fx-text-fill: #000000 ;
+}
+
+.button:pressed {
+    -fx-font: 15px "Arial";
+    -fx-padding: 5;
+    -fx-min-width: 110px;
+    -fx-background-color: #ACACAC;
+    -fx-text-fill: #000000 ;
+    -fx-translate-x: 3px;
+    -fx-translate-y: 3px;
+}
+
+.button:hover {
+    -fx-font: 15px "Arial";
+    -fx-padding: 5;
+    -fx-min-width: 110px;
+    -fx-background-color: #B0B0B0;
+    -fx-text-fill: #000000 ;
+}
+
+.label {
+    -fx-font: 20px "Arial";
+    -fx-text-fill: #000000 ;
+}
+
+.text-field {
+    -fx-min-width: 45px;
+    -fx-max-width: 45px;
+    -fx-font: 15px "Arial";
+    -fx-background-color: #BFBFBF;
+    -fx-text-fill: #000000 ;
+}
+
+.combo-box {
+    -fx-font: 15px "Arial";
+    -fx-background-color: #BFBFBF;
+    -fx-text-fill: #000000 ;
+}
+
+.root {
+    -fx-background-color: #8C7F7C;
+}
+
+.text-area {
+    -fx-text-fill: #000000;
+    -fx-wrap-text: true;
+    -fx-max-width: 310px;
+    -fx-min-height: 200px;
+    -fx-font: 15px "Arial";
+}
